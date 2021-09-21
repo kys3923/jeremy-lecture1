@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="temp.css">
+  <script type="text/javascript" src="temp.js" defer></script>
+  <title>temperature converter</title>
+</head>
+<body>
+  <h1>This site will convert C to F temperature to you!</h1>
+  <div class="display">
+    <p id="result">0</p>
+  </div>
+  <div class="formInput">
+    <form>
+      <h3>your temperature input</h3>
+      <input id="tempSubmit" type="text" placeholder="your temp" value="">
+      <input type="radio" id="tempC" name="temperature" value="cel">
+        <label for="cel">C</label>
+      <input type="radio" id="tempF" name="temperature" value="far">
+        <label for="far">F</label>
+      <button id="convert" type="submit" value="">convert</button>
+      <button id="clear" type="submit" value="">clear</button>
+    </form>
+  </div>
+</body>
+</html>
